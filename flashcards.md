@@ -284,13 +284,13 @@ These methods help address biases and confounding factors to estimate causal rel
 
 **A:** **Maximum Likelihood Estimation (MLE)** is a statistical method for estimating the parameters of a model by maximizing the likelihood function. The likelihood function measures how well the model explains the observed data for different parameter values. MLE finds the parameter estimates that make the observed data **most probable** under the assumed model.
 
-For a given set of data points \(X = \{x_1, x_2, \ldots, x_n\}\) and a parameter \( \theta \), MLE finds:
+For a given set of data points $X = \{x_1, x_2, \ldots, x_n\}$ and a parameter $ \theta $, MLE finds:
 
-\[
+```math
 \hat{\theta} = \arg\max_\theta \mathcal{L}(\theta | X)
-\]
+```
 
-Where \(\mathcal{L}(\theta | X)\) is the likelihood function.
+Where $\mathcal{L}(\theta | X)$ is the likelihood function.
 
 ---
 
@@ -313,25 +313,25 @@ The goal of MLE is to find the parameters that best explain the data by maximizi
 **A:** MLE is implemented using the following steps:
 
 1. **Define the Likelihood Function:**
-   Based on the assumed probability distribution of the data, define the likelihood function \( \mathcal{L}(\theta | X) \). For independent observations, the likelihood is the product of individual probabilities:
+   Based on the assumed probability distribution of the data, define the likelihood function $\mathcal{L}(\theta | X)$. For independent observations, the likelihood is the product of individual probabilities:
 
-   \[
+   ```math
    \mathcal{L}(\theta | X) = \prod_{i=1}^n f(x_i; \theta)
-   \]
+   ```
 
 2. **Log-Likelihood Transformation:**
    To simplify the computation, take the natural log of the likelihood function (log-likelihood):
 
-   \[
+   ```math
    \log \mathcal{L}(\theta | X) = \sum_{i=1}^n \log f(x_i; \theta)
-   \]
+   ```
 
 3. **Maximize the Log-Likelihood:**
    Find the parameter \( \theta \) that maximizes the log-likelihood using calculus. This involves solving:
 
-   \[
+   ```math
    \frac{d}{d\theta} \log \mathcal{L}(\theta | X) = 0
-   \]
+   ```
 
 4. **Numerical Optimization:**
    For complex models, use numerical methods like **Gradient Descent**, **Newton-Raphson**, or **Expectation-Maximization (EM)** to find the maximum.
@@ -665,8 +665,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
----
-
 ### Q: What are gradient-boosted decision trees (GBDT)?
 
 **A:** **Gradient-Boosted Decision Trees (GBDT)** are an ensemble learning method that builds a series of decision trees sequentially, where each new tree corrects errors made by the previous trees. It minimizes a loss function using **gradient descent** to improve performance iteratively.
@@ -741,9 +739,10 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 **A:** **Ridge regression** is a type of linear regression that uses **L2 regularization** to prevent overfitting by adding a penalty proportional to the sum of the squared coefficients.
 
 **Ridge Regression Formula:**
-$$
+
+```math
 \hat{\beta} = \arg\min_{\beta} \left( \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p} \beta_j^2 \right)
-$$
+```
 
 Where:
 - $\lambda$ is the regularization parameter (controls the strength of the penalty).
@@ -760,9 +759,10 @@ Where:
 **A:** **Lasso regression** (Least Absolute Shrinkage and Selection Operator) is a type of linear regression that uses **L1 regularization** to prevent overfitting by adding a penalty proportional to the sum of the absolute values of the coefficients.
 
 **Lasso Regression Formula:**
-$$
+
+```math
 \hat{\beta} = \arg\min_{\beta} \left( \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right)
-$$
+```
 
 Where:
 - $\lambda$ is the regularization parameter (controls the strength of the penalty).
@@ -771,8 +771,6 @@ Where:
 **Key Features:**
 - Performs **feature selection** by setting some coefficients to zero.
 - Useful when dealing with high-dimensional datasets with many irrelevant features.
-
----
 
 ---
 
@@ -847,8 +845,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 4. **Common Applications:**
    - **CNNs:** Image classification, object detection.
    - **RNNs:** Language modeling, speech recognition.
-
----
 
 ---
 
@@ -980,17 +976,17 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 **General Form:**
 
 Maximize or Minimize:
-$$
+```math
 c_1x_1 + c_2x_2 + \ldots + c_nx_n
-$$
+```
 
 Subject to:
-$$
+```math
 a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n \leq b_1
-$$
-$$
+```
+```math
 x_i \geq 0 \quad \text{for all } i
-$$
+```
 
 **Applications:**
 - Resource allocation, logistics, scheduling, manufacturing.
@@ -1019,14 +1015,16 @@ $$
 **General Form:**
 
 Minimize:
-$$
+
+```math
 f(x)
-$$
+```
 
 Subject to:
-$$
+
+```math
 g_i(x) \leq 0 \quad \text{and} \quad h_j(x) = 0
-$$
+```
 
 Where $f(x)$ and $g_i(x)$ are convex functions, and $h_j(x)$ are affine functions.
 
@@ -1040,9 +1038,11 @@ Where $f(x)$ and $g_i(x)$ are convex functions, and $h_j(x)$ are affine function
 **A:** **Gradient-based methods** are optimization techniques that use gradients (partial derivatives) to minimize or maximize an objective function. These methods iteratively update model parameters by moving in the direction of the **negative gradient** to minimize a loss function.
 
 **General Update Rule:**
-$$
+
+```math
 \theta_{t+1} = \theta_t - \eta \nabla_\theta L(\theta_t)
-$$
+```
+
 Where:
 - $\theta_t$: Model parameters at step $t$.
 - $\eta$: Learning rate (step size).
@@ -1061,9 +1061,11 @@ Where:
 **A:** **Stochastic Gradient Descent (SGD)** is a gradient-based optimization method that updates model parameters using a **random subset (mini-batch) of the data** instead of the entire dataset. This makes the updates faster and more computationally efficient.
 
 **Update Rule:**
-$$
+
+```math
 \theta_{t+1} = \theta_t - \eta \nabla_\theta L(\theta_t; x_i, y_i)
-$$
+```
+
 Where:
 - $(x_i, y_i)$: A single data point or mini-batch.
 - $\eta$: Learning rate.
@@ -1084,20 +1086,20 @@ Where:
 
 **Update Rule:**
 1. Compute moving averages of the gradients:
-   $$
+   ```math
    m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
-   $$
-   $$
+   ```
+   ```math
    v_t = \beta_2 v_{t-1} + (1 - \beta_2) g_t^2
-   $$
+   ```
 2. Bias correction:
-   $$
+   ```math
    \hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}
-   $$
+   ```
 3. Parameter update:
-   $$
+   ```math
    \theta_{t+1} = \theta_t - \eta \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
-   $$
+   ```
 
 Where:
 - $\beta_1$ and $\beta_2$: Decay rates for moving averages (default $\beta_1 = 0.9$, $\beta_2 = 0.999$).
