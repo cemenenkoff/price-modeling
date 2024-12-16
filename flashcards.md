@@ -315,23 +315,23 @@ The goal of MLE is to find the parameters that best explain the data by maximizi
 1. **Define the Likelihood Function:**
    Based on the assumed probability distribution of the data, define the likelihood function $\mathcal{L}(\theta | X)$. For independent observations, the likelihood is the product of individual probabilities:
 
-   ```math
-   \mathcal{L}(\theta | X) = \prod_{i=1}^n f(x_i; \theta)
-   ```
+```math
+\mathcal{L}(\theta | X) = \prod_{i=1}^n f(x_i; \theta)
+```
 
 2. **Log-Likelihood Transformation:**
    To simplify the computation, take the natural log of the likelihood function (log-likelihood):
 
-   ```math
-   \log \mathcal{L}(\theta | X) = \sum_{i=1}^n \log f(x_i; \theta)
-   ```
+```math
+\log \mathcal{L}(\theta | X) = \sum_{i=1}^n \log f(x_i; \theta)
+```
 
 3. **Maximize the Log-Likelihood:**
    Find the parameter \( \theta \) that maximizes the log-likelihood using calculus. This involves solving:
 
-   ```math
-   \frac{d}{d\theta} \log \mathcal{L}(\theta | X) = 0
-   ```
+```math
+\frac{d}{d\theta} \log \mathcal{L}(\theta | X) = 0
+```
 
 4. **Numerical Optimization:**
    For complex models, use numerical methods like **Gradient Descent**, **Newton-Raphson**, or **Expectation-Maximization (EM)** to find the maximum.
