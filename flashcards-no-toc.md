@@ -1,91 +1,16 @@
 <!-- omit in toc -->
 # Price Modeling Flashcards
 
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
-
-- [Q: What is elasticity of demand?](#q-what-is-elasticity-of-demand)
-- [Q: What is price elasticity?](#q-what-is-price-elasticity)
-- [Q: What are dynamic pricing algorithms?](#q-what-are-dynamic-pricing-algorithms)
-- [Q: What are the most common techniques used in dynamic pricing algorithms?](#q-what-are-the-most-common-techniques-used-in-dynamic-pricing-algorithms)
-- [Q: What are common techniques for measuring consumer preferences?](#q-what-are-common-techniques-for-measuring-consumer-preferences)
-- [Q: What is conjoint analysis?](#q-what-is-conjoint-analysis)
-- [Q: What are common methods in time series forecasting?](#q-what-are-common-methods-in-time-series-forecasting)
-- [Q: What is SARIMAX modeling?](#q-what-is-sarimax-modeling)
-- [Q: What is Prophet modeling?](#q-what-is-prophet-modeling)
-- [Q: What is behavioral pricing?](#q-what-is-behavioral-pricing)
-- [Q: What is reference pricing?](#q-what-is-reference-pricing)
-- [Q: What is anchoring?](#q-what-is-anchoring)
-- [Q: What is econometric modeling?](#q-what-is-econometric-modeling)
-- [Q: What are generalized linear models?](#q-what-are-generalized-linear-models)
-- [Q: What is logistic regression?](#q-what-is-logistic-regression)
-- [Q: What is Poisson regression?](#q-what-is-poisson-regression)
-- [Q: What is causal inference?](#q-what-is-causal-inference)
-- [Q: What are the most common causal inference techniques?](#q-what-are-the-most-common-causal-inference-techniques)
-- [Q: What is difference-in-differences (DiD)?](#q-what-is-difference-in-differences-did)
-- [Q: What are instrumental variables (IV)?](#q-what-are-instrumental-variables-iv)
-- [Q: What is propensity score matching (PSM)?](#q-what-is-propensity-score-matching-psm)
-- [Q: What is maximum likelihood estimation (MLE)?](#q-what-is-maximum-likelihood-estimation-mle)
-- [Q: What is the theory behind MLE?](#q-what-is-the-theory-behind-mle)
-- [Q: How is MLE implemented?](#q-how-is-mle-implemented)
-- [Q: What is hypothesis testing?](#q-what-is-hypothesis-testing)
-- [Q: What is a p-value?](#q-what-is-a-p-value)
-- [Q: What is a confidence interval?](#q-what-is-a-confidence-interval)
-- [Q: What types of errors are there?](#q-what-types-of-errors-are-there)
-- [Q: What is a Type I error?](#q-what-is-a-type-i-error)
-- [Q: What is a Type II error?](#q-what-is-a-type-ii-error)
-- [Q: How can Type I and Type II Errors be Summarized?](#q-how-can-type-i-and-type-ii-errors-be-summarized)
-- [Q: What are Bayesian methods?](#q-what-are-bayesian-methods)
-- [Q: What is Bayesian regression?](#q-what-is-bayesian-regression)
-- [Q: What is hierarchical modeling?](#q-what-is-hierarchical-modeling)
-- [Q: What is Design of Experiments (DOE)?](#q-what-is-design-of-experiments-doe)
-- [Q: What are the core principles of DOE?](#q-what-are-the-core-principles-of-doe)
-- [Q: What is A/B Testing?](#q-what-is-ab-testing)
-- [Q: What are multi-armed bandits?](#q-what-are-multi-armed-bandits)
-- [Q: Explain the exploration-exploitation tradeoff for adaptive environments.](#q-explain-the-exploration-exploitation-tradeoff-for-adaptive-environments)
-- [Q: What are A/B testing metrics?](#q-what-are-ab-testing-metrics)
-- [Q: What is statistical power?](#q-what-is-statistical-power)
-- [Q: What are tree-based machine learning methods?](#q-what-are-tree-based-machine-learning-methods)
-- [Q: What are gradient-boosted decision trees (GBDT)?](#q-what-are-gradient-boosted-decision-trees-gbdt)
-- [Q: What are random forests?](#q-what-are-random-forests)
-- [Q: What is XGBoost?](#q-what-is-xgboost)
-- [Q: Explain L1/L2 regularization.](#q-explain-l1l2-regularization)
-- [Q: What is ridge regression?](#q-what-is-ridge-regression)
-- [Q: What is lasso regression?](#q-what-is-lasso-regression)
-- [Q: What is a neural network (NN)?](#q-what-is-a-neural-network-nn)
-- [Q: What is a convolutional neural network (CNN)?](#q-what-is-a-convolutional-neural-network-cnn)
-- [Q: What is a recurrent neural network (RNN)?](#q-what-is-a-recurrent-neural-network-rnn)
-- [Q: Explain the similarities between CNNs and RNNs.](#q-explain-the-similarities-between-cnns-and-rnns)
-- [Q: Explain the differences between CNNs and RNNs.](#q-explain-the-differences-between-cnns-and-rnns)
-- [Q: What are embeddings in the context of NNs?](#q-what-are-embeddings-in-the-context-of-nns)
-- [Q: What is sequence modeling for demand prediction?](#q-what-is-sequence-modeling-for-demand-prediction)
-- [Q: What is the concept of dimensionality reduction?](#q-what-is-the-concept-of-dimensionality-reduction)
-- [Q: What is Principal Component Analysis (PCA)?](#q-what-is-principal-component-analysis-pca)
-- [Q: What is t-SNE?](#q-what-is-t-sne)
-- [Q: What are some common feature engineering methods?](#q-what-are-some-common-feature-engineering-methods)
-- [Q: What is CatBoost?](#q-what-is-catboost)
-- [Q: What is linear programming?](#q-what-is-linear-programming)
-- [Q: What are simplex algorithms?](#q-what-are-simplex-algorithms)
-- [Q: What is convex optimization?](#q-what-is-convex-optimization)
-- [Q: What are gradient-based methods?](#q-what-are-gradient-based-methods)
-- [Q: What is stochastic gradient descent (SGD)?](#q-what-is-stochastic-gradient-descent-sgd)
-- [Q: What is the Adam optimizer?](#q-what-is-the-adam-optimizer)
-- [Q: What is the Agile methodology?](#q-what-is-the-agile-methodology)
-- [Q: What is Scrum?](#q-what-is-scrum)
-- [Q: What is Kanban?](#q-what-is-kanban)
-- [Q: What is sprint planning?](#q-what-is-sprint-planning)
-
-<!-- TOC end -->
+[TOC]
 
 ---
 
-<!-- TOC --><a name="q-what-is-elasticity-of-demand"></a>
 ### Q: What is elasticity of demand?
 
 **A:** Elasticity of demand measures how the quantity demanded of a good or service changes in response to a change in its price. It is expressed as the percentage change in quantity demanded divided by the percentage change in price. High elasticity indicates demand is sensitive to price changes, while low elasticity indicates demand is relatively insensitive. For example, the price of gasoline is relatively inelastic (in the short run).
 
 ---
 
-<!-- TOC --><a name="q-what-is-price-elasticity"></a>
 ### Q: What is price elasticity?
 
 **A:** Price elasticity refers to the degree to which the quantity demanded or supplied of a good changes in response to a price change. It is quantified as Price Elasticity of Demand (PED):
@@ -101,14 +26,12 @@ Values:
 
 ---
 
-<!-- TOC --><a name="q-what-are-dynamic-pricing-algorithms"></a>
 ### Q: What are dynamic pricing algorithms?
 
 **A:** Dynamic pricing algorithms are computational models used to adjust prices in real time based on various factors such as demand, supply, competition, and customer behavior. These algorithms aim to optimize revenue and maximize profit by dynamically setting prices according to changing market conditions.
 
 ---
 
-<!-- TOC --><a name="q-what-are-the-most-common-techniques-used-in-dynamic-pricing-algorithms"></a>
 ### Q: What are the most common techniques used in dynamic pricing algorithms?
 
 **A:** The most common techniques used in dynamic pricing algorithms include:
@@ -123,7 +46,6 @@ Values:
 
 ---
 
-<!-- TOC --><a name="q-what-are-common-techniques-for-measuring-consumer-preferences"></a>
 ### Q: What are common techniques for measuring consumer preferences?
 
 **A:** Common techniques for measuring consumer preferences include:
@@ -138,14 +60,12 @@ Values:
 
 ---
 
-<!-- TOC --><a name="q-what-is-conjoint-analysis"></a>
 ### Q: What is conjoint analysis?
 
 **A:** Conjoint analysis is a statistical technique used to determine how consumers value different features of a product or service. By presenting consumers with different combinations of features and asking them to choose their preferred option, conjoint analysis helps identify the trade-offs they are willing to make. This technique is commonly used in product design, pricing strategies, and market research.
 
 ---
 
-<!-- TOC --><a name="q-what-are-common-methods-in-time-series-forecasting"></a>
 ### Q: What are common methods in time series forecasting?
 
 **A:** Common methods in time series forecasting include:
@@ -163,7 +83,6 @@ Values:
 
 ---
 
-<!-- TOC --><a name="q-what-is-sarimax-modeling"></a>
 ### Q: What is SARIMAX modeling?
 
 **A:** SARIMAX (Seasonal Autoregressive Integrated Moving Average with eXogenous regressors) is an extension of SARIMA that incorporates external predictors (exogenous variables). It models time series data by considering:
@@ -178,7 +97,6 @@ SARIMAX is useful when external factors (e.g., promotions, holidays) impact the 
 
 ---
 
-<!-- TOC --><a name="q-what-is-prophet-modeling"></a>
 ### Q: What is Prophet modeling?
 
 **A:** Prophet is a forecasting tool developed by Facebook designed for handling time series data with daily, weekly, and yearly seasonality. It works well with missing data, outliers, and changing trends. Key features include:
@@ -192,7 +110,6 @@ Prophet is particularly suited for business applications and data with strong se
 
 ---
 
-<!-- TOC --><a name="q-what-is-behavioral-pricing"></a>
 ### Q: What is behavioral pricing?
 
 **A:** Behavioral pricing is a strategy that incorporates insights from psychology and behavioral economics to understand how consumers perceive prices and make purchasing decisions. It leverages cognitive biases, heuristics, and emotional responses to influence consumer behavior. Techniques in behavioral pricing include:
@@ -204,7 +121,6 @@ Prophet is particularly suited for business applications and data with strong se
 
 ---
 
-<!-- TOC --><a name="q-what-is-reference-pricing"></a>
 ### Q: What is reference pricing?
 
 **A:** Reference pricing is the strategy of setting a price based on consumers’ expectations or perceptions of what a fair price should be. These expectations are influenced by:
@@ -218,7 +134,6 @@ Reference pricing is often used to highlight discounts or make products appear m
 
 ---
 
-<!-- TOC --><a name="q-what-is-anchoring"></a>
 ### Q: What is anchoring?
 
 **A:** Anchoring is a cognitive bias where individuals rely heavily on the first piece of information (the "anchor") when making decisions. In pricing, the initial price shown to consumers influences their perception of subsequent prices. Examples of anchoring include:
@@ -231,7 +146,6 @@ Anchoring helps shape consumers' willingness to pay based on the initial price t
 
 ---
 
-<!-- TOC --><a name="q-what-is-econometric-modeling"></a>
 ### Q: What is econometric modeling?
 
 **A:** Econometric modeling uses statistical techniques to quantify and analyze economic relationships based on empirical data. These models help test hypotheses, forecast trends, and understand causal relationships. Key components of econometric modeling include:
@@ -246,7 +160,6 @@ Examples of econometric models include **linear regression, time series models (
 
 ---
 
-<!-- TOC --><a name="q-what-are-generalized-linear-models"></a>
 ### Q: What are generalized linear models?
 
 **A:** Generalized Linear Models (GLMs) are an extension of linear regression models that allow for response variables with different types of distributions (not just normal). GLMs consist of three main components:
@@ -262,7 +175,6 @@ Examples of econometric models include **linear regression, time series models (
 
 ---
 
-<!-- TOC --><a name="q-what-is-logistic-regression"></a>
 ### Q: What is logistic regression?
 
 **A:** Logistic regression is a type of Generalized Linear Model (GLM) used for predicting binary outcomes (e.g., yes/no, 0/1). Instead of fitting a straight line, logistic regression models the probability of an event occurring using the **logit function**:
@@ -282,7 +194,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-poisson-regression"></a>
 ### Q: What is Poisson regression?
 
 **A:** Poisson regression is a type of Generalized Linear Model (GLM) used for modeling count data, where the response variable represents the number of times an event occurs. It assumes that the response variable follows a **Poisson distribution** and is typically used when the data are non-negative integers (e.g., 0, 1, 2, ...). The model uses a **log link function** to relate the linear predictor to the mean of the response variable:
@@ -307,7 +218,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-causal-inference"></a>
 ### Q: What is causal inference?
 
 **A:** Causal inference is the process of determining whether a cause-and-effect relationship exists between variables. Unlike correlation, which only identifies associations, causal inference aims to understand how changes in one variable (the **treatment**) impact another variable (the **outcome**). This process often involves controlling for confounding factors and using statistical methods to isolate the causal effect.
@@ -316,7 +226,6 @@ Causal inference is essential in fields like economics, healthcare, and social s
 
 ---
 
-<!-- TOC --><a name="q-what-are-the-most-common-causal-inference-techniques"></a>
 ### Q: What are the most common causal inference techniques?
 
 **A:** The most common causal inference techniques include:
@@ -332,7 +241,6 @@ These methods help address biases and confounding factors to estimate causal rel
 
 ---
 
-<!-- TOC --><a name="q-what-is-difference-in-differences-did"></a>
 ### Q: What is difference-in-differences (DiD)?
 
 **A:** **Difference-in-Differences (DiD)** is a causal inference technique used to estimate the effect of a treatment or intervention by comparing the changes in outcomes between a treatment group and a control group over time. DiD assumes that both groups would follow a **parallel trend** in the absence of the treatment.
@@ -346,7 +254,6 @@ These methods help address biases and confounding factors to estimate causal rel
 
 ---
 
-<!-- TOC --><a name="q-what-are-instrumental-variables-iv"></a>
 ### Q: What are instrumental variables (IV)?
 
 **A:** **Instrumental Variables (IV)** is a method used in causal inference to address **endogeneity**—when an independent variable is correlated with the error term, leading to biased estimates. An instrumental variable helps isolate the causal effect by providing a source of variation that is correlated with the treatment but not with the error term.
@@ -359,7 +266,6 @@ These methods help address biases and confounding factors to estimate causal rel
 
 ---
 
-<!-- TOC --><a name="q-what-is-propensity-score-matching-psm"></a>
 ### Q: What is propensity score matching (PSM)?
 
 **A:** **Propensity Score Matching (PSM)** is a technique used to estimate causal effects by matching treated and control units with similar characteristics (covariates). The propensity score is the probability of receiving the treatment, given observed characteristics.
@@ -377,7 +283,6 @@ These methods help address biases and confounding factors to estimate causal rel
 
 ---
 
-<!-- TOC --><a name="q-what-is-maximum-likelihood-estimation-mle"></a>
 ### Q: What is maximum likelihood estimation (MLE)?
 
 **A:** **Maximum Likelihood Estimation (MLE)** is a statistical method for estimating the parameters of a model by maximizing the likelihood function. The likelihood function measures how well the model explains the observed data for different parameter values. MLE finds the parameter estimates that make the observed data **most probable** under the assumed model.
@@ -392,7 +297,6 @@ Where $\mathcal{L}(\theta | X)$ is the likelihood function.
 
 ---
 
-<!-- TOC --><a name="q-what-is-the-theory-behind-mle"></a>
 ### Q: What is the theory behind MLE?
 
 **A:** The theory behind MLE is grounded in the principle of **likelihood**. Given a statistical model and observed data, the likelihood function represents the probability of observing the data for different parameter values. MLE selects the parameters that **maximize this likelihood**.
@@ -407,7 +311,6 @@ The goal of MLE is to find the parameters that best explain the data by maximizi
 
 ---
 
-<!-- TOC --><a name="q-how-is-mle-implemented"></a>
 ### Q: How is MLE implemented?
 
 **A:** MLE is implemented using the following steps:
@@ -455,7 +358,6 @@ print("MLE estimates:", result.x)
 
 ---
 
-<!-- TOC --><a name="q-what-is-hypothesis-testing"></a>
 ### Q: What is hypothesis testing?
 
 **A:** **Hypothesis testing** is a statistical method used to make inferences about a population based on sample data. It involves evaluating whether there is enough evidence to reject a **null hypothesis ($H_0$)** in favor of an **alternative hypothesis ($H_1$)**.
@@ -480,7 +382,6 @@ print("MLE estimates:", result.x)
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-p-value"></a>
 ### Q: What is a p-value?
 
 **A:** A **p-value** is the probability of obtaining a test statistic as extreme or more extreme than the observed value, assuming the null hypothesis ($H_0$) is true. It measures the strength of evidence against $H_0$.
@@ -494,7 +395,6 @@ A p-value of 0.03 means there is a 3% chance of observing the data if $H_0$ is t
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-confidence-interval"></a>
 ### Q: What is a confidence interval?
 
 **A:** A **confidence interval (CI)** is a range of values that is likely to contain the true population parameter (e.g., mean or proportion) with a specified level of confidence (e.g., 95%).
@@ -517,7 +417,6 @@ A 95% confidence interval for the average height might be (165 cm, 175 cm). This
 
 ---
 
-<!-- TOC --><a name="q-what-types-of-errors-are-there"></a>
 ### Q: What types of errors are there?
 
 **A:** In hypothesis testing, there are two primary types of errors:
@@ -532,7 +431,6 @@ These errors are controlled by:
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-type-i-error"></a>
 ### Q: What is a Type I error?
 
 **A:** A **Type I error** occurs when the null hypothesis ($H_0$) is **incorrectly rejected**, even though it is actually true. It is also called a **false positive**.
@@ -544,7 +442,6 @@ A medical test concludes a patient has a disease (positive result) when they do 
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-type-ii-error"></a>
 ### Q: What is a Type II error?
 
 **A:** A **Type II error** occurs when the null hypothesis ($H_0$) is **incorrectly accepted** (i.e., failing to reject it), even though it is actually false. It is also called a **false negative**.
@@ -557,7 +454,6 @@ A medical test concludes a patient does not have a disease (negative result) whe
 
 ---
 
-<!-- TOC --><a name="q-how-can-type-i-and-type-ii-errors-be-summarized"></a>
 ### Q: How can Type I and Type II Errors be Summarized?
 **A:** **Using a decision matrix** is a great way to display the types of conclusions made from hypothesis testing.
 
@@ -568,7 +464,6 @@ A medical test concludes a patient does not have a disease (negative result) whe
 
 ---
 
-<!-- TOC --><a name="q-what-are-bayesian-methods"></a>
 ### Q: What are Bayesian methods?
 
 **A:** **Bayesian methods** are statistical techniques based on **Bayes' Theorem**, which provides a way to update the probability of a hypothesis as new evidence or data becomes available. Bayesian methods incorporate prior beliefs and observed data to produce a **posterior distribution**.
@@ -590,7 +485,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-bayesian-regression"></a>
 ### Q: What is Bayesian regression?
 
 **A:** **Bayesian regression** is a regression technique that uses Bayesian inference to estimate the parameters of the model. Unlike traditional regression, Bayesian regression produces a **distribution of parameter estimates** (posterior distributions) instead of point estimates.
@@ -611,7 +505,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-hierarchical-modeling"></a>
 ### Q: What is hierarchical modeling?
 
 **A:** **Hierarchical modeling** (also called **multilevel modeling**) is a statistical approach where data are structured in multiple levels or groups. It allows for the modeling of both **group-level** and **individual-level** effects simultaneously.
@@ -631,7 +524,6 @@ Analyzing student test scores where students are nested within classrooms, and c
 
 ---
 
-<!-- TOC --><a name="q-what-is-design-of-experiments-doe"></a>
 ### Q: What is Design of Experiments (DOE)?
 
 **A:** **Design of Experiments (DOE)** is a systematic approach to planning, conducting, and analyzing controlled experiments to understand the effects of multiple factors on a response variable. DOE helps identify relationships between inputs (factors) and outputs (responses) and optimize processes or products.
@@ -646,7 +538,6 @@ Analyzing student test scores where students are nested within classrooms, and c
 
 ---
 
-<!-- TOC --><a name="q-what-are-the-core-principles-of-doe"></a>
 ### Q: What are the core principles of DOE?
 
 **A:** The core principles of Design of Experiments (DOE) include:
@@ -670,7 +561,6 @@ These principles help ensure experiments are rigorous, unbiased, and statistical
 
 ---
 
-<!-- TOC --><a name="q-what-is-ab-testing"></a>
 ### Q: What is A/B Testing?
 
 **A:** **A/B testing** is a type of controlled experiment used to compare two versions (A and B) of a product, webpage, or feature to determine which one performs better. It is widely used in digital marketing, product design, and software development.
@@ -688,7 +578,6 @@ Testing two versions of a website landing page to see which one leads to more si
 
 ---
 
-<!-- TOC --><a name="q-what-are-multi-armed-bandits"></a>
 ### Q: What are multi-armed bandits?
 
 **A:** **Multi-armed bandits** are a type of sequential decision-making problem where an agent must choose between multiple options (called "arms") to maximize cumulative rewards over time. Each arm provides a random reward drawn from an unknown probability distribution. The term comes from the analogy of a gambler choosing between slot machines (bandits) in a casino.
@@ -702,7 +591,6 @@ Testing two versions of a website landing page to see which one leads to more si
 
 ---
 
-<!-- TOC --><a name="q-explain-the-exploration-exploitation-tradeoff-for-adaptive-environments"></a>
 ### Q: Explain the exploration-exploitation tradeoff for adaptive environments.
 
 **A:** The **exploration-exploitation tradeoff** describes the balance between two strategies in decision-making for adaptive environments:
@@ -729,7 +617,6 @@ In a **multi-armed bandit problem**, a gambler must decide how often to try diff
 
 ---
 
-<!-- TOC --><a name="q-what-are-ab-testing-metrics"></a>
 ### Q: What are A/B testing metrics?
 
 **A:** **A/B testing metrics** are quantitative measures used to evaluate the effectiveness of variations in an A/B test. Common metrics include:
@@ -744,7 +631,6 @@ In a **multi-armed bandit problem**, a gambler must decide how often to try diff
 
 ---
 
-<!-- TOC --><a name="q-what-is-statistical-power"></a>
 ### Q: What is statistical power?
 
 **A:** **Statistical power** is the probability that a hypothesis test correctly rejects the null hypothesis ($H_0$) when the alternative hypothesis ($H_1$) is true. In other words, it measures the likelihood of detecting an actual effect.
@@ -765,7 +651,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-what-are-tree-based-machine-learning-methods"></a>
 ### Q: What are tree-based machine learning methods?
 
 **A:** **Tree-based machine learning methods** use decision trees as their core structure to make predictions. Common methods include:
@@ -784,7 +669,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-what-are-gradient-boosted-decision-trees-gbdt"></a>
 ### Q: What are gradient-boosted decision trees (GBDT)?
 
 **A:** **Gradient-Boosted Decision Trees (GBDT)** are an ensemble learning method that builds a series of decision trees sequentially, where each new tree corrects errors made by the previous trees. It minimizes a loss function using **gradient descent** to improve performance iteratively.
@@ -803,7 +687,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-what-are-random-forests"></a>
 ### Q: What are random forests?
 
 **A:** **Random Forests** are an ensemble learning method that builds multiple decision trees using different random subsets of the data and features. The final prediction is made by aggregating the outputs of all the trees (majority vote for classification, average for regression).
@@ -820,7 +703,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-what-is-xgboost"></a>
 ### Q: What is XGBoost?
 
 **A:** **XGBoost** (eXtreme Gradient Boosting) is an optimized, scalable implementation of gradient-boosted decision trees (GBDT). It is designed for speed, performance, and efficiency, making it a popular choice for machine learning competitions and real-world applications.
@@ -839,7 +721,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-explain-l1l2-regularization"></a>
 ### Q: Explain L1/L2 regularization.
 
 **A:** **L1 and L2 regularization** are techniques used to prevent overfitting in machine learning models by adding a penalty to the loss function based on the model's coefficients.
@@ -857,7 +738,6 @@ A power of **0.8 (80%)** is commonly used, meaning there is an 80% chance of det
 
 ---
 
-<!-- TOC --><a name="q-what-is-ridge-regression"></a>
 ### Q: What is ridge regression?
 
 **A:** **Ridge regression** is a type of linear regression that uses **L2 regularization** to prevent overfitting by adding a penalty proportional to the sum of the squared coefficients.
@@ -878,7 +758,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-lasso-regression"></a>
 ### Q: What is lasso regression?
 
 **A:** **Lasso regression** (Least Absolute Shrinkage and Selection Operator) is a type of linear regression that uses **L1 regularization** to prevent overfitting by adding a penalty proportional to the sum of the absolute values of the coefficients.
@@ -899,7 +778,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-neural-network-nn"></a>
 ### Q: What is a neural network (NN)?
 
 **A:** A **neural network (NN)** is a machine learning model inspired by the structure of the human brain. It consists of layers of **nodes (neurons)** connected by **weights**. These layers typically include:
@@ -914,7 +792,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-convolutional-neural-network-cnn"></a>
 ### Q: What is a convolutional neural network (CNN)?
 
 **A:** A **Convolutional Neural Network (CNN)** is a type of neural network designed for processing data with a grid-like structure, such as images. CNNs use **convolutional layers** to automatically and adaptively learn spatial hierarchies of features.
@@ -928,7 +805,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-a-recurrent-neural-network-rnn"></a>
 ### Q: What is a recurrent neural network (RNN)?
 
 **A:** A **Recurrent Neural Network (RNN)** is a type of neural network designed for sequential data. RNNs have connections that form cycles, allowing them to maintain a **memory of previous inputs**.
@@ -943,7 +819,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-explain-the-similarities-between-cnns-and-rnns"></a>
 ### Q: Explain the similarities between CNNs and RNNs.
 
 **A:** Similarities between CNNs and RNNs include:
@@ -955,7 +830,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-explain-the-differences-between-cnns-and-rnns"></a>
 ### Q: Explain the differences between CNNs and RNNs.
 
 **A:** Differences between CNNs and RNNs include:
@@ -978,7 +852,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-are-embeddings-in-the-context-of-nns"></a>
 ### Q: What are embeddings in the context of NNs?
 
 **A:** **Embeddings** are dense vector representations of categorical or discrete data in neural networks. They map high-dimensional inputs (e.g., words, items) to lower-dimensional continuous vectors, capturing semantic relationships.
@@ -993,7 +866,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-sequence-modeling-for-demand-prediction"></a>
 ### Q: What is sequence modeling for demand prediction?
 
 **A:** **Sequence modeling for demand prediction** involves using models designed to handle sequential data (e.g., historical demand patterns) to forecast future demand.
@@ -1009,7 +881,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-the-concept-of-dimensionality-reduction"></a>
 ### Q: What is the concept of dimensionality reduction?
 
 **A:** **Dimensionality reduction** is the process of reducing the number of features (dimensions) in a dataset while preserving as much information as possible. It simplifies data, reduces computational cost, and mitigates overfitting.
@@ -1025,7 +896,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-principal-component-analysis-pca"></a>
 ### Q: What is Principal Component Analysis (PCA)?
 
 **A:** **Principal Component Analysis (PCA)** is a linear dimensionality reduction technique that transforms data into a set of new orthogonal axes (principal components) that capture the most variance.
@@ -1041,7 +911,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-t-sne"></a>
 ### Q: What is t-SNE?
 
 **A:** **t-Distributed Stochastic Neighbor Embedding (t-SNE)** is a non-linear dimensionality reduction technique used for visualizing high-dimensional data in 2D or 3D.
@@ -1059,7 +928,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-are-some-common-feature-engineering-methods"></a>
 ### Q: What are some common feature engineering methods?
 
 **A:** Common feature engineering methods include:
@@ -1090,7 +958,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-catboost"></a>
 ### Q: What is CatBoost?
 
 **A:** **CatBoost** is a gradient boosting algorithm developed by Yandex, designed to handle categorical features efficiently. It is based on decision trees and optimized for performance and ease of use.
@@ -1106,7 +973,6 @@ Each neuron computes a weighted sum of its inputs and passes it through an **act
 
 ---
 
-<!-- TOC --><a name="q-what-is-linear-programming"></a>
 ### Q: What is linear programming?
 
 **A:** **Linear programming (LP)** is an optimization technique for maximizing or minimizing a linear objective function subject to linear constraints (equalities and inequalities).
@@ -1131,7 +997,6 @@ x_i \geq 0 \quad \text{for all } i
 
 ---
 
-<!-- TOC --><a name="q-what-are-simplex-algorithms"></a>
 ### Q: What are simplex algorithms?
 
 **A:** The **simplex algorithm** is a method for solving linear programming problems. It systematically explores the vertices of the feasible region to find the optimal solution.
@@ -1147,7 +1012,6 @@ x_i \geq 0 \quad \text{for all } i
 
 ---
 
-<!-- TOC --><a name="q-what-is-convex-optimization"></a>
 ### Q: What is convex optimization?
 
 **A:** **Convex optimization** is a class of optimization problems where the objective function is convex, and the feasible region (defined by constraints) is a convex set. In convex problems, any local minimum is also a global minimum.
@@ -1173,7 +1037,6 @@ Where $f(x)$ and $g_i(x)$ are convex functions, and $h_j(x)$ are affine function
 
 ---
 
-<!-- TOC --><a name="q-what-are-gradient-based-methods"></a>
 ### Q: What are gradient-based methods?
 
 **A:** **Gradient-based methods** are optimization techniques that use gradients (partial derivatives) to minimize or maximize an objective function. These methods iteratively update model parameters by moving in the direction of the **negative gradient** to minimize a loss function.
@@ -1197,7 +1060,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-stochastic-gradient-descent-sgd"></a>
 ### Q: What is stochastic gradient descent (SGD)?
 
 **A:** **Stochastic Gradient Descent (SGD)** is a gradient-based optimization method that updates model parameters using a **random subset (mini-batch) of the data** instead of the entire dataset. This makes the updates faster and more computationally efficient.
@@ -1222,7 +1084,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-the-adam-optimizer"></a>
 ### Q: What is the Adam optimizer?
 
 **A:** The **Adam (Adaptive Moment Estimation) optimizer** is an adaptive gradient-based optimization method that combines the benefits of **momentum** and **RMSProp**. It adapts the learning rate for each parameter based on estimates of the first and second moments of the gradients.
@@ -1256,7 +1117,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-the-agile-methodology"></a>
 ### Q: What is the Agile methodology?
 
 **A:** **Agile methodology** is a project management approach focused on iterative development, collaboration, flexibility, and delivering value incrementally. It emphasizes responding to change over following a strict plan. Agile breaks projects into small, manageable units of work, promoting continuous feedback and improvement.
@@ -1269,7 +1129,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-scrum"></a>
 ### Q: What is Scrum?
 
 **A:** **Scrum** is an Agile framework for managing complex projects, particularly software development. It focuses on iterative development through fixed-length cycles called **sprints** (usually 1-4 weeks). Scrum promotes teamwork, accountability, and continuous progress.
@@ -1287,7 +1146,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-kanban"></a>
 ### Q: What is Kanban?
 
 **A:** **Kanban** is an Agile methodology that focuses on visualizing work, limiting work-in-progress (WIP), and optimizing flow. It uses a **Kanban board** to represent tasks and their status (e.g., To Do, In Progress, Done).
@@ -1302,7 +1160,6 @@ Where:
 
 ---
 
-<!-- TOC --><a name="q-what-is-sprint-planning"></a>
 ### Q: What is sprint planning?
 
 **A:** **Sprint planning** is a Scrum event where the team plans the work to be done in the upcoming sprint. It sets the sprint's goal and defines the tasks needed to achieve it.
