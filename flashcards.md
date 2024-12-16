@@ -12,7 +12,7 @@ Here are markdown-style Q/A flashcards for the given concepts:
 
 **A:** Price elasticity refers to the degree to which the quantity demanded or supplied of a good changes in response to a price change. It is quantified as:
 
-$\text{Price Elasticity of Demand (PED)} = \frac{\% \Delta \text{Quantity Demanded}}{\% \Delta \text{Price}}$
+$$ \text{Price Elasticity of Demand (PED)} = \frac{\% \Delta \text{Quantity Demanded}}{\% \Delta \text{Price}} $$
 
 Values:
 - **Elastic (PED > 1):** Demand changes significantly with price changes.
