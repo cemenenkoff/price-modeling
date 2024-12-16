@@ -1318,6 +1318,7 @@ Where:
 
 ---
 
+<!-- TOC --><a name="q-using-an-analogy-of-trees-in-a-forest-describe-bayesian-statistics"></a>
 ### Q: Using an analogy of trees in a forest, describe Bayesian statistics.
 
 **A**: Imagine you're walking through a dense forest and trying to determine the species of trees you’re seeing. You start with a **prior belief** about the types of trees in the forest based on your past experience — for example, you think it's mostly pine trees.
